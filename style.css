@@ -1,0 +1,201 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Bahnschrift;
+}
+
+.aboveNav {
+    padding: .8% 0%;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(90deg, #9245ff 0, #228dff 50%, #5fecff);
+    font-size: 90%;
+    transition: .10s;
+    -webkit-transition: .10s;
+    -moz-transition: .10s;
+    -ms-transition: .10s;
+    -o-transition: .10s;
+}
+.aboveNav:hover {
+    background-image: linear-gradient(90deg, #fa4f4f 0, #9245ff 50%, #967fa0);
+    /* transition-delay: 1s; */
+    transition-duration: 1s;
+}
+/* NAVIGATION */
+
+nav {
+    background-color: black;
+    color: gray;
+}
+
+/* .firstNav::before {
+    src: url(download.png);
+} */
+
+.firstNav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 1%;
+    align-items: center;
+}
+
+.leftNav {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    margin-left: -15%;
+}
+
+.rightNav {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    margin-right: -15%;
+}
+
+.secondNav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5% 1%;
+    align-items: center;
+}
+
+.leftSecondNav {
+    width: 20%;
+    margin-left: -10%;
+}
+.leftSecondNav img {
+    width: 20%;
+}
+.rightSecondNav {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-right: -10%;
+    align-items: center;
+}
+
+/* hr {
+    width: 10%;
+    color: antiquewhite;
+} */
+
+nav img, .followIcons {
+    width: 8%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/* HERO */
+.heroSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: grey;
+    padding: 0% 8% 5% 8%;
+}
+.followIcons {
+    display: flex;
+}
+.followIcons img {
+    width: 40%;
+    margin: 0% 10%;
+}
+
+.rightHero {
+    /* background-color: black; */
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+}
+
+.rightHero img {
+    width: 20%;
+}
+.rightHeroFlexed1, .rightHeroFlexed2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.rightHeroFlexed1 img, .rightHeroFlexed2 img {
+    width: 70%;
+}
+
+.rightHeroFlexed2 {
+    margin-top: 30%;
+}
+
+.leftHero {
+    width: 60%;
+}
+.leftHero h1 {
+    font-size: 320%;
+    line-height: 1.3em;
+    margin-bottom: 3%;
+    color: white;
+}
+.leftHero p {
+    line-height: 1.8em;
+}
+
+.downloadBtn {
+    width: 2%;
+    margin: 0% 1%;
+}
+
+.downloadBtn2 {
+    width: 7%;
+    height: auto;
+    margin: 0% 4%;
+}
+
+
+.heroButtons {
+    margin: 5% 0%;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.leftHeroBtn, .rightHeroBtn {
+    width: 50%;
+}
+.leftHeroBtn {
+    padding: 1% 2%;
+    background-color: rgb(93, 151, 202);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.rightHeroBtn {
+    border: 2px solid white;
+    padding: .5% 2%;
+    margin-left: 5%;
+    color: white;
+}
+
+.heroButtons p {
+    /* background-image: linear-gradient(90deg, #9245ff 0, #228dff 50%, #5fecff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.linearHead {
+    background-image: linear-gradient(90deg, #9245ff 0, #228dff 50%, #5fecff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.whiteBold {
+    color: white;
+}

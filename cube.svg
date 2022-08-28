@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 129.8 90.6" style="enable-background:new 0 0 129.8 90.6;" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-1.984741e-02" y1="45.3487" x2="129.8" y2="45.3487">
+<stop offset="4.366812e-03" style="stop-color:#5FECFF"/>
+<stop offset="1" style="stop-color:#228DFF"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M129.8,53.1C129.8,53.1,129.8,53.1,129.8,53.1l-0.2-15.9v0.1c0,0,0,0,0,0c0-1.5-0.9-2.9-2.8-3.9L71.9,1.8 c-3.8-2.2-10-2.2-13.8,0L2.8,33.5c-1.7,1-2.7,2.3-2.8,3.6l0-0.2c0,0.3,0,0.5,0,0.8l0-0.2l0,0.2c0,0,0,0,0,0l0.2,14.5 c-0.5,1.7,0.4,3.6,2.7,4.9L58,88.9c1.9,1.1,4.4,1.7,7,1.6c2.5,0,5-0.5,7-1.6L127,57.1C128.9,56,129.8,54.7,129.8,53.1 c0,0.1,0,0.1,0,0.2L129.8,53.1z"/>
+<path fill="#5FECFF" d="M2.9,41.2c-3.8-2.2-3.8-5.8,0-7.9L58.2,1.6c3.8-2.2,10-2.2,13.8,0l54.9,31.6c3.8,2.2,3.8,5.8,0,7.9L71.8,73 c-3.8,2.2-10,2.2-13.8,0L2.9,41.2z"/>
+</svg>
