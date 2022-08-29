@@ -37,7 +37,7 @@ nav {
 .firstNav {
     display: flex;
     justify-content: space-around;
-    padding: 1% 1%;
+    padding: .6% 1%;
     align-items: center;
 }
 
@@ -46,13 +46,14 @@ nav {
     width: 20%;
     justify-content: space-around;
     margin-left: -15%;
+    font-size: 70%;
 }
 
-.rightNav {
+.rightNav, .followIcons {
     display: flex;
     width: 20%;
     justify-content: space-around;
-    margin-right: -15%;
+    margin-right: -10%;
 }
 
 .secondNav {
@@ -82,8 +83,8 @@ nav {
     color: antiquewhite;
 } */
 
-nav img, .followIcons {
-    width: 8%;
+nav img {
+    width: 6%;
 }
 
 a {
@@ -104,10 +105,13 @@ a {
 }
 .followIcons {
     display: flex;
+    width: 20%;
+    justify-content: space-around;
+    margin-left: 10%;
 }
 .followIcons img {
-    width: 40%;
-    margin: 0% 10%;
+    width: 20%;
+    margin: 0% 5%;
 }
 
 .rightHero {
