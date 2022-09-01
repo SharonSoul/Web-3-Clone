@@ -12,16 +12,12 @@ body {
     color: white;
     background-image: linear-gradient(90deg, #9245ff 0, #228dff 50%, #5fecff);
     font-size: 90%;
-    transition: .10s;
-    -webkit-transition: .10s;
-    -moz-transition: .10s;
-    -ms-transition: .10s;
-    -o-transition: .10s;
+    transition-duration: 2s;
 }
 .aboveNav:hover {
     background-image: linear-gradient(90deg, #fa4f4f 0, #9245ff 50%, #967fa0);
-    /* transition-delay: 1s; */
-    transition-duration: 1s;
+    /* transition-delay: .5s; */
+    cursor: pointer;
 }
 /* NAVIGATION */
 
@@ -177,11 +173,21 @@ a {
 }
 .leftHeroBtn {
     padding: 1% 2%;
-    background-color: rgb(93, 151, 202);
+    background-image: linear-gradient(90deg, #228dff 20%,rgb(54, 214, 235, 0.8) 50%,  rgb(95, 236, 255, 1));
     color: white;
     display: flex;
     align-items: center;
+    transition: 0s background-color;
+    -webkit-transition: 0s background-color;
+    -moz-transition: 0s background-color;
+    -ms-transition: 0s background-color;
+    -o-transition: 0s background-color;
 }
+
+/* .leftHeroBtn:hover {
+    background-color: red;
+    transition-delay: 1s;
+} */
 
 .rightHeroBtn {
     border: 2px solid white;
@@ -190,16 +196,69 @@ a {
     color: white;
 }
 
-.heroButtons p {
-    /* background-image: linear-gradient(90deg, #9245ff 0, #228dff 50%, #5fecff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-}
 .linearHead {
     background-image: linear-gradient(90deg, #9245ff 0, #228dff 50%, #5fecff);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .whiteBold {
     color: white;
+}
+
+
+/* ABOUT SECTION */
+.about {
+    padding: 5% 8% 5% 8%;
+}
+.heroAbout img {
+    width: 12%;
+}
+.heroAbout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.story {
+    text-align: center;
+    padding: 0% 10%;
+}
+.story h1 {
+    font-size: 250%;
+    margin-top: 8%;
+}
+.story p {
+    margin-top: 3%;
+    line-height: 1.5em;
+    font-weight: 200;
+}
+.story li {
+    text-align: left;
+    margin: 0% 12%;
+    font-weight: 200;
+    padding: 0% 0%;
+}
+.colorful {
+    background-image: linear-gradient(90deg, #9245ff 0, #228dff 50%, #5fecff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.aboutBtn {
+    padding: .8% 1%;
+    padding-right: 0%;
+    background-image: linear-gradient(90deg, #228dff 10%,rgb(54, 214, 235, 0.8) 50%,  rgb(95, 236, 255, 0.95));
+    margin: 3% 40%;
+    font-size: 100%;
+    width: 20%;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: 0s background-color;
+    -webkit-transition: 0s background-color;
+    -moz-transition: 0s background-color;
+    -ms-transition: 0s background-color;
+    -o-transition: 0s background-color;
 }
